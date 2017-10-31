@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','MyFirstController@getIndex');
+Route::get('/home','MyFirstController@getIndex');
 
 Route::get('/signUp','MyFirstController@getSignup');
 
